@@ -166,5 +166,9 @@ The compiled output will be generated inside the `dist/` directory, ready to dep
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
+## 👨‍💻 Author
 
-<div align="center"> Crafted with ⚡ and precision by <strong>Mithilesh Angu</strong> </div>
+**Mithilesh A**
+
+Software Developer
+---
