@@ -1,22 +1,15 @@
-# Mithilesh Angu - Developer Portfolio & System Architecture
-<div align="center">
-  <pre>
-    __  __ _ _   _     _ _           _     
-   |  \/  (_) |_| |__ (_) | ___  ___| |__  
-   | |\/| | | __| '_ \| | |/ _ \/ __| '_ \ 
-   | |  | | | |_| | | | | |  __/\__ \ | | |
-   |_|  |_|_|\__|_| |_|_|_|\___||___/_| |_|
-  </pre>
-  <p><strong>Software Engineer & Full-Stack Developer</strong></p>
-  <p>A modern, high-performance, and interactive developer portfolio showcasing distributed systems, full-stack web applications, system architecture breakdowns, and engineering case studies.</p>
-</div>
+# Mithilesh A - Portfolio
+
+**Software Engineer · Full-Stack Developer**
+
+I build scalable web applications, backend services, and AI-powered systems with a focus on clean architecture, reliability, and practical engineering.
 
 ---
 
 ## 🌟 Demo & Preview
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" alt="Portfolio Demo" width="100%" />
+  <img src="./src/assets/images/Home.png" alt="Portfolio Home Page" width="100%" />
 </div>
 
 ---
@@ -25,7 +18,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://mithilesh-portfolio-lyart.vercel.app/)
 
-🚀 **[Launch EduNavigator](https://mithilesh-portfolio-lyart.vercel.app/)**
+🚀 **[Launch mithiesh-portfolio](https://mithilesh-portfolio-lyart.vercel.app/)**
 
 > The application is hosted on Vercel.
 ---
