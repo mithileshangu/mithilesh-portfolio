@@ -24,7 +24,7 @@
 ## 🌐 Live Preview
 
 Check out the live deployment of the portfolio website here:  
-👉 [**Live Portfolio Demo**](https://portfolio-mithilesh.vercel.app/) *(or your deployed Vercel URL)*
+👉 [**Live Portfolio Demo**](https://mithilesh-portfolio-lyart.vercel.app/) *(or your deployed Vercel URL)*
 
 ---
 

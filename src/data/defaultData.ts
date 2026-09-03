@@ -17,7 +17,7 @@ export const initialProfile: DeveloperProfile = {
   "linkedinUrl": "https://linkedin.com",
   "email": "mithilesh.angu@gmail.com",
   "websiteUrl": "https://github.com/mithileshangu",
-  "avatarUrl": "/src/assets/images/profile_avatar_1787910116265.jpg",
+  "avatarUrl": "/profile_avatar_1787910116265.jpg",
   "stats": {
     "totalProjects": 6,
     "yearsOfExperience": 3,
@@ -30,6 +30,84 @@ export const initialProfile: DeveloperProfile = {
 };
 
 export const initialProjects: Project[] = [
+  {
+    "id": "proj-1788269494686",
+    "title": "mithilesh-portfolio",
+    "tagline": "Educational & Software Engineering Platform",
+    "category": "Full Stack",
+    "description": "Modern software application",
+    "technologies": [
+      "TypeScript"
+    ],
+    "imageUrl": "https://camo.githubusercontent.com/e83bd2c6d4d83ff71cf31961eb2b592a48053b1f9a2cd965810f9a57e319bb1f/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313535353036363933312d3433363564313462616238633f713d383026773d31323030266175746f3d666f726d6174266669743d63726f70",
+    "demoUrl": "https://mithilesh-portfolio-lyart.vercel.app/",
+    "featured": true,
+    "githubAttachment": {
+      "repoName": "mithilesh-portfolio",
+      "repoOwner": "mithileshangu",
+      "repoUrl": "https://github.com/mithileshangu/mithilesh-portfolio",
+      "stars": 1,
+      "forks": 0,
+      "primaryLanguage": "TypeScript",
+      "languageColor": "#3178C6",
+      "defaultBranch": "main",
+      "lastCommitDate": "Recently"
+    }
+  },
+  {
+    "id": "proj-1788269326976",
+    "title": "event-management-system",
+    "tagline": "Educational & Software Engineering Platform",
+    "category": "Full Stack",
+    "description": "Modern software application",
+    "technologies": [
+      "JAVA",
+      "Spring Boot",
+      "Oracle Plsql",
+      "REST Api's"
+    ],
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgJO71000fzDkL7Izl2IoC1g76xQZD_iLsumrgnNIWxA&s=10",
+    "featured": true,
+    "githubAttachment": {
+      "repoName": "event-management-system",
+      "repoOwner": "itsmib",
+      "repoUrl": "https://github.com/itsmib/event-management-system",
+      "stars": 1,
+      "forks": 0,
+      "primaryLanguage": "JAVA",
+      "languageColor": "#ED8B00",
+      "defaultBranch": "main",
+      "lastCommitDate": "Recently"
+    }
+  },
+  {
+    "id": "proj-1788268991843",
+    "title": "Cinestream",
+    "tagline": "CineStream movie browser with a hybrid MovieLens recommender",
+    "category": "Full Stack",
+    "description": "It combines:\n\nCollaborative filtering using real MovieLens user ratings\nContent-based filtering using movie genres and user tags\nTMDB for poster, backdrop, and overview data",
+    "technologies": [
+      "Java",
+      "SpringBoot",
+      "JavaScript",
+      "python",
+      "Machine Learning"
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/mithileshangu/Cinestream/refs/heads/main/docs/screenshots/Home.png",
+    "demoUrl": "https://moviestream-frontend.onrender.com/",
+    "featured": true,
+    "githubAttachment": {
+      "repoName": "Cinestream",
+      "repoOwner": "mithileshangu",
+      "repoUrl": "https://github.com/mithileshangu/Cinestream",
+      "stars": 1,
+      "forks": 0,
+      "primaryLanguage": "Java",
+      "languageColor": "#ED8B00",
+      "defaultBranch": "main",
+      "lastCommitDate": "Recently"
+    }
+  },
   {
     "id": "proj-1787983520256",
     "title": "EduNavigator",

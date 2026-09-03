@@ -139,7 +139,7 @@ export const Hero: React.FC<HeroProps> = ({
                 <div className="flex items-center gap-4">
                   <div className="relative">
                     <img
-                      src={profile.avatarUrl || '/src/assets/images/profile_avatar_1787910116265.jpg'}
+                      src={profile.avatarUrl || '/profile_avatar_1787910116265.jpg'}
                       alt={profile.name}
                       referrerPolicy="no-referrer"
                       className="w-20 h-20 rounded-2xl object-cover border-2 border-zinc-700/80 shadow-md"
