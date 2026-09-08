@@ -16,9 +16,9 @@ I build scalable web applications, backend services, and AI-powered systems with
 
 ## 🌐 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://mithilesh-portfolio-lyart.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://mithilesh-portfolio-tau.vercel.app/)
 
-🚀 **[Launch mithiesh-portfolio](https://mithilesh-portfolio-lyart.vercel.app/)**
+🚀 **[Launch mithiesh-portfolio](https://mithilesh-portfolio-tau.vercel.app/)**
 
 > The application is hosted on Vercel.
 ---
