@@ -7,7 +7,7 @@ import { DeveloperProfile, Project, SkillCategory, ExperienceItem, TechItem, Por
 export const initialProfile: DeveloperProfile = {
   "name": "Mithilesh A",
   "title": "Full Stack Software Engineer",
-  "subTitle": "Designing scalable web applications, thoughtful interfaces, and reliable cloud services",
+  "subTitle": "Building practical AI systems that turn models into useful, reliable applications.",
   "location": "India / Remote",
   "availability": "Available for opportunities & collaborations",
   "bio": "Software engineer focused on building clean, high-performance web applications and distributed architectures. Passionate about minimal design, intuitive user experiences, and robust engineering standards.",
