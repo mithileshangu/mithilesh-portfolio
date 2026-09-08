@@ -6,18 +6,18 @@ import { DeveloperProfile, Project, SkillCategory, ExperienceItem, TechItem, Por
 
 export const initialProfile: DeveloperProfile = {
   "name": "Mithilesh A",
-  "title": "Full Stack Software Engineer",
-  "subTitle": "Building practical AI systems that turn models into useful, reliable applications.",
+  "title": "AI Engineer | Generative AI | Machine Learning",
+  "subTitle": "Designing scalable web applications, thoughtful interfaces, and reliable cloud services",
   "location": "India / Remote",
-  "availability": "Available for opportunities & collaborations",
-  "bio": "Software engineer focused on building clean, high-performance web applications and distributed architectures. Passionate about minimal design, intuitive user experiences, and robust engineering standards.",
+  "availability": "Available for AI Engineering Opportunities",
+  "bio": "AI-focused engineer building intelligent systems across machine learning, deep learning, and Generative AI. I enjoy turning AI concepts into practical applications using LLMs, RAG, AI agents, and production-ready backend technologies.",
   "yearsOfExperience": 1,
   "githubUsername": "mithileshangu",
   "githubUrl": "https://github.com/mithileshangu",
-  "linkedinUrl": "https://www.linkedin.com/in/mithilesh-a-/",
+  "linkedinUrl": "https://linkedin.com",
   "email": "mithilesh.angu@gmail.com",
   "websiteUrl": "https://github.com/mithileshangu",
-  "avatarUrl": "profile_avatar_1787910116265.jpg",
+  "avatarUrl": "/src/assets/images/profile_avatar_1787910116265.jpg",
   "stats": {
     "totalProjects": 6,
     "yearsOfExperience": 3,
@@ -31,15 +31,88 @@ export const initialProfile: DeveloperProfile = {
 
 export const initialProjects: Project[] = [
   {
+    "id": "proj-1788875331562",
+    "title": "Event Management System",
+    "tagline": "Secure Event Management & Booking Platform",
+    "category": "Full Stack",
+    "description": "A full-stack event management platform that enables users to discover events, register for events, manage bookings, and receive notifications. Administrators can create and manage events, monitor registrations, and manage the overall event workflow through a secure application.",
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "Spring Data JPA",
+      "Thymeleaf",
+      "Oracle",
+      "REST APIs",
+      "Maven"
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/mithileshangu/event-management-system/main/docs/screenshots/Admin.png",
+    "featured": true,
+    "githubAttachment": {
+      "repoName": "event-management-system",
+      "repoOwner": "mithileshangu",
+      "repoUrl": "https://github.com/mithileshangu/event-management-system",
+      "stars": 1,
+      "forks": 0,
+      "primaryLanguage": "Java",
+      "languageColor": "#ED8B00",
+      "defaultBranch": "main",
+      "lastCommitDate": "Recently"
+    },
+    "keyFeatures": [
+      "Event Discovery and Registration",
+      "Secure Admin and Booking Management"
+    ]
+  },
+  {
+    "id": "proj-1788873389429",
+    "title": "Farmer Assistant",
+    "tagline": "Multilingual AI Assistant for Farmers",
+    "category": "AI & Data",
+    "description": "A multilingual AI assistant designed to help farmers access practical agricultural information through conversational interaction. The application combines an LLM with selective web search to provide fresh information for time-sensitive questions such as market prices, weather, government schemes, and recent agricultural updates.",
+    "technologies": [
+      "Python",
+      "Generative AI",
+      "LLMs",
+      "Groq",
+      "Streamlit",
+      "Web Search",
+      "Phidata"
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/mithileshangu/FarmerAssitant/refs/heads/main/docs/screenshots/history.png",
+    "demoUrl": "https://farmer-assistantv1.streamlit.app/",
+    "featured": true,
+    "githubAttachment": {
+      "repoName": "FarmerAssitant",
+      "repoOwner": "mithileshangu",
+      "repoUrl": "https://github.com/mithileshangu/FarmerAssitant",
+      "stars": 1,
+      "forks": 0,
+      "primaryLanguage": "Python",
+      "languageColor": "#3776AB",
+      "defaultBranch": "main",
+      "lastCommitDate": "Recently"
+    },
+    "keyFeatures": [
+      "Multilingual AI Conversations",
+      "Fresh Agricultural Information through Web Search"
+    ]
+  },
+  {
     "id": "proj-1788269494686",
     "title": "mithilesh-portfolio",
-    "tagline": "Educational & Software Engineering Platform",
+    "tagline": "Personal  Engineering Portfolio & Project Showcase",
     "category": "Full Stack",
     "description": "Modern software application",
     "technologies": [
-      "TypeScript"
+      "TypeScript",
+      "React",
+      "HTML",
+      "CSS",
+      "Vite",
+      "Git"
     ],
-    "imageUrl": "https://camo.githubusercontent.com/e83bd2c6d4d83ff71cf31961eb2b592a48053b1f9a2cd965810f9a57e319bb1f/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313535353036363933312d3433363564313462616238633f713d383026773d31323030266175746f3d666f726d6174266669743d63726f70",
+    "imageUrl": "https://github.com/mithileshangu/mithilesh-portfolio/raw/main/src/assets/images/Home.png",
     "demoUrl": "https://mithilesh-portfolio-lyart.vercel.app/",
     "featured": true,
     "githubAttachment": {
@@ -52,46 +125,28 @@ export const initialProjects: Project[] = [
       "languageColor": "#3178C6",
       "defaultBranch": "main",
       "lastCommitDate": "Recently"
-    }
-  },
-  {
-    "id": "proj-1788269326976",
-    "title": "event-management-system",
-    "tagline": "Educational & Software Engineering Platform",
-    "category": "Full Stack",
-    "description": "Modern software application",
-    "technologies": [
-      "JAVA",
-      "Spring Boot",
-      "Oracle Plsql",
-      "REST Api's"
-    ],
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgJO71000fzDkL7Izl2IoC1g76xQZD_iLsumrgnNIWxA&s=10",
-    "featured": true,
-    "githubAttachment": {
-      "repoName": "event-management-system",
-      "repoOwner": "itsmib",
-      "repoUrl": "https://github.com/itsmib/event-management-system",
-      "stars": 1,
-      "forks": 0,
-      "primaryLanguage": "JAVA",
-      "languageColor": "#ED8B00",
-      "defaultBranch": "main",
-      "lastCommitDate": "Recently"
-    }
+    },
+    "keyFeatures": [
+      "Responsive Personal Portfolio"
+    ]
   },
   {
     "id": "proj-1788268991843",
-    "title": "Cinestream",
-    "tagline": "CineStream movie browser with a hybrid MovieLens recommender",
+    "title": "CineStream",
+    "tagline": "Hybrid Movie Recommendation System",
     "category": "Full Stack",
-    "description": "It combines:\n\nCollaborative filtering using real MovieLens user ratings\nContent-based filtering using movie genres and user tags\nTMDB for poster, backdrop, and overview data",
+    "description": "A movie recommendation platform that combines collaborative filtering with content-based recommendation techniques. The system analyzes user ratings along with movie genres and metadata to generate personalized recommendations and provide a Netflix-style movie discovery experience.",
     "technologies": [
-      "Java",
-      "SpringBoot",
-      "JavaScript",
-      "python",
-      "Machine Learning"
+      "Python",
+      "Machine Learning",
+      "Collaborative Filtering",
+      "Content-Based Filtering",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "TMDB API",
+      "JAVA",
+      "Spring Boot"
     ],
     "imageUrl": "https://raw.githubusercontent.com/mithileshangu/Cinestream/refs/heads/main/docs/screenshots/Home.png",
     "demoUrl": "https://moviestream-frontend.onrender.com/",
@@ -102,22 +157,31 @@ export const initialProjects: Project[] = [
       "repoUrl": "https://github.com/mithileshangu/Cinestream",
       "stars": 1,
       "forks": 0,
-      "primaryLanguage": "Java",
-      "languageColor": "#ED8B00",
+      "primaryLanguage": "Python",
+      "languageColor": "#3776AB",
       "defaultBranch": "main",
       "lastCommitDate": "Recently"
-    }
+    },
+    "keyFeatures": [
+      "Hybrid Movie Recommendation",
+      "Personalized Recommendations using Ratings and Movie Metadata"
+    ]
   },
   {
     "id": "proj-1787983520256",
     "title": "EduNavigator",
-    "tagline": "🎓 TNEA college recommendation system built with Flask to help students find colleges based on cutoff, course, branch, city, fees, and college type.",
+    "tagline": "AI-Assisted College Recommendation Platform",
     "category": "Full Stack",
-    "description": "🎓 TNEA college recommendation system built with Flask to help students find colleges based on cutoff, course, branch, city, fees, and college type.",
+    "description": "An intelligent college counselling platform designed to help students explore and shortlist colleges based on their academic profile, preferences, branches, locations, and available admission information.",
     "technologies": [
-      "python",
-      "flask",
-      "machine learning"
+      "Python",
+      "Flask",
+      "Machine Learning",
+      "Pandas",
+      "SQL",
+      "HTML",
+      "CSS",
+      "JavaScript"
     ],
     "imageUrl": "https://github.com/mithileshangu/EduNavigator/raw/main/docs/screenshots/Home.png",
     "demoUrl": "https://edunavigator-2v6g.onrender.com/",
@@ -128,114 +192,113 @@ export const initialProjects: Project[] = [
       "repoUrl": "https://github.com/mithileshangu/EduNavigator",
       "stars": 1,
       "forks": 0,
-      "primaryLanguage": "python",
+      "primaryLanguage": "Python",
       "languageColor": "#3776AB",
       "defaultBranch": "main",
       "lastCommitDate": "Recently"
-    }
+    },
+    "keyFeatures": [
+      "Personalized College Recommendations",
+      "College and Branch Filtering"
+    ]
   }
 ];
 
 export const initialTechStack: TechItem[] = [
   {
-    "id": "tech-1787984191424",
-    "name": "Java",
-    "category": "Language"
-  },
-  {
-    "id": "tech-1787984195367",
+    "id": "tech-1788860990352",
     "name": "python",
     "category": "Language"
   },
   {
-    "id": "tech-1787984207488",
-    "name": "Spring boot",
+    "id": "tech-1788861128531",
+    "name": "Machine Learning",
     "category": "Language"
   },
   {
-    "id": "tech-1787984235837",
-    "name": "RESTful APIs",
+    "id": "tech-1788861136065",
+    "name": "Deep Learning",
     "category": "Language"
   },
   {
-    "id": "tech-1787984275497",
-    "name": "Thymeleaf",
+    "id": "tech-1788861141904",
+    "name": "LLMs",
     "category": "Language"
   },
   {
-    "id": "tech-1787984280595",
-    "name": "HTML5",
+    "id": "tech-1788861147677",
+    "name": "Generative AI",
     "category": "Language"
   },
   {
-    "id": "tech-1787984285476",
-    "name": "CSS3",
+    "id": "tech-1788861158094",
+    "name": "NLP",
     "category": "Language"
   },
   {
-    "id": "tech-1787984290395",
-    "name": "Bootstrap",
-    "category": "Language"
-  },
-  {
-    "id": "tech-1787984301993",
-    "name": "Oracle PL/SQL",
-    "category": "Language"
-  },
-  {
-    "id": "tech-1787984328488",
-    "name": "mysql",
-    "category": "Database"
-  },
-  {
-    "id": "tech-1787984350821",
-    "name": "aws",
-    "category": "Cloud"
-  },
-  {
-    "id": "tech-1787984387621",
-    "name": "Tensorflow",
-    "category": "Framework"
-  },
-  {
-    "id": "tech-1787984396953",
+    "id": "tech-1788861167092",
     "name": "PyTorch",
-    "category": "Framework"
+    "category": "Language"
   },
   {
-    "id": "tech-1787984404343",
+    "id": "tech-1788861173397",
+    "name": "TensorFlow",
+    "category": "Language"
+  },
+  {
+    "id": "tech-1788861180016",
+    "name": "Scikit-learn",
+    "category": "Language"
+  },
+  {
+    "id": "tech-1788861187477",
     "name": "OpenCV",
-    "category": "Framework"
+    "category": "Language"
   },
   {
-    "id": "tech-1787984411382",
-    "name": "NLTK",
-    "category": "Framework"
-  },
-  {
-    "id": "tech-1787984421347",
+    "id": "tech-1788861193439",
     "name": "NumPy",
-    "category": "Framework"
+    "category": "Language"
   },
   {
-    "id": "tech-1787984429531",
+    "id": "tech-1788861206444",
     "name": "Pandas",
-    "category": "Framework"
+    "category": "Language"
   },
   {
-    "id": "tech-1787984437390",
-    "name": "Matplotlib",
-    "category": "Framework"
+    "id": "tech-1788861212857",
+    "name": "FastAPI",
+    "category": "Language"
   },
   {
-    "id": "tech-1787984446358",
+    "id": "tech-1788861218668",
     "name": "Git",
-    "category": "Tool"
+    "category": "Language"
   },
   {
-    "id": "tech-1787984463207",
+    "id": "tech-1788861226252",
+    "name": "Java",
+    "category": "Language"
+  },
+  {
+    "id": "tech-1788861232632",
+    "name": "Spring Boot",
+    "category": "Language"
+  },
+  {
+    "id": "tech-1788861253901",
     "name": "Postman",
-    "category": "Tool"
+    "category": "Language"
+  },
+  {
+    "id": "tech-1788861279670",
+    "name": "REST API",
+    "category": "Language"
+  },
+  {
+    "id": "tech-1788861291538",
+    "name": "aws",
+    "category": "Language"
   }
 ];
 
@@ -587,7 +650,7 @@ export const initialExperience: ExperienceItem[] = [
     "role": "Machine Learning Intern",
     "company": "Squad Cube Solutions",
     "location": "Remote",
-    "period": "Apr 2024 – May 2024",
+    "period": "April 2024 – May 2024",
     "type": "Full-time",
     "highlights": [
       "Engineered a content-based filtering recommendation system for scholarships and courses, increasing user engagement by 15% and improving recommendation accuracy.",
@@ -605,7 +668,7 @@ export const initialExperience: ExperienceItem[] = [
     "role": "Programmer Analyst",
     "company": "Cognizant",
     "location": "Bangalore(Hybrid)",
-    "period": "2025-Present",
+    "period": "July 2025-Present",
     "type": "Full-time",
     "highlights": [
       "Learned and built a full-stack web application using Java, Spring Boot, and Thymeleaf for dynamic server-side rendering.",
