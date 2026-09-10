@@ -14,7 +14,7 @@ export const initialProfile: DeveloperProfile = {
   "yearsOfExperience": 1,
   "githubUsername": "mithileshangu",
   "githubUrl": "https://github.com/mithileshangu",
-  "linkedinUrl": "https://linkedin.com",
+  "linkedinUrl": "https://www.linkedin.com/in/mithilesh-a-/",
   "email": "mithilesh.angu@gmail.com",
   "websiteUrl": "https://github.com/mithileshangu",
   "avatarUrl": "/profile_avatar_1787910116265.jpg",
